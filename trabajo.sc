@@ -39,11 +39,6 @@ x.map(_.user_followers_count).sum/x.length.toDouble
 }
 calcularMediaX(informacion)
 
-def calcularMediaY(y: List[tweet]): Double ={
-  y.map(_.user_friends_count).sum/y.length.toDouble
-}
-calcularMediaY(informacion)
-
 
 def pearson(x: List[tweet], y: List[tweet]): Double = {
 
